@@ -15,6 +15,7 @@ module.exports = {
         const { filename } = req.file;
         const { company, price, techs } = req.body;
         const { user_id } = req.headers;
+        //analisar porque esta dando erro no trecho comentado
         //const user = await User.findOne(user_id);
         /*if(!user){
             return res.status(400).json({ error: "User does not exists" });
